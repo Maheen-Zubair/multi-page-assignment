@@ -71,13 +71,11 @@ p {
   height: 100px;
   background-color: black;
   color: rgb(205, 206, 207);
-
 }
 
 .headerBtns {
   display: flex;
   gap: 30px;
-  font-size: 15px;
   padding-right: 20px;
   list-style: none;
   justify-content: space-around;
@@ -117,3 +115,87 @@ p {
   background: rgb(232, 232, 232);
   height: 100vh;
 }
+
+@media (max-width:750px){
+p {
+  font-size: 1rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 0px 20px 0px 20px;
+}
+
+.heading {
+  font-size: 400%;
+}
+.profile-image {
+  height: 200px;
+  width: 200px;
+
+  }
+.header {
+  height: 30px;
+ 
+}
+.headerBtns li {
+  font-size: 1rem;
+
+}
+.contact-container {
+  font-size: 25px;
+
+}
+.about-container {
+  font-size: 25px;
+
+}
+}
+
+
+@media (max-width:340px){
+  p {
+    font-size: 0.8rem;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 0px 20px 0px 20px;
+  }
+  
+  .heading {
+    font-size: 330%;
+ 
+  
+  }
+  .profile-image {
+    height: 180px;
+    width: 180px;
+  
+    }
+  .header {
+    height: 22px;
+   
+  }
+  
+.headerBtns {
+  gap: 15px;
+  font-size: 11px;
+  padding-right: 15px;
+
+
+}
+  .contact-container {
+    font-size: 17px;
+  
+  }
+  .about-container {
+    font-size: 17px;
+  
+  }
+
+  }
