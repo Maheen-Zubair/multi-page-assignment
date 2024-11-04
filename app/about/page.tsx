@@ -8,7 +8,7 @@ export default function About() {
       <Header />
       <div className="about-bg">
         <h1 className="about-container">
-          This Is The Section Of &quot;About-Us&quot;
+          This Is The Section Of About-Us;
         </h1>
       </div>
       <Footer />

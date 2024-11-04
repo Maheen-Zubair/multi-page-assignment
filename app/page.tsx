@@ -11,8 +11,9 @@ export default function Home() {
       <div className="main-container">
         <div className="content">
           <div className="heading">
-            I'm <span>Maheen</span>
+            I&apos;m <span>Maheen</span>
           </div>
+
           <p>
             &quot;I am a front-end developer skilled in HTML, CSS, JavaScript, and TypeScript. I focus on creating responsive, user-friendly web interfaces and am keen on learning new technologies.&quot;
           </p>

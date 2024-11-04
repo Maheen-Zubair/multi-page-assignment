@@ -7,7 +7,7 @@ export default function Contact() {
       <Header />
       <div className="contact-bg">
         <h1 className="contact-container">
-          This Is The Section Of &quot;Contact-Us&quot;
+          This Is The Section Of Contact-Us;
         </h1>
       </div>
       <Footer />
